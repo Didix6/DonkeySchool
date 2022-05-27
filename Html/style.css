@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    width: 100%;
+    background-color: blueviolet;
+}
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li {
+    float: left;
+    position: relative;
+} 
+nav > ul > li > a {
+    padding: 20px 30px;
+    color: white;
+}
+nav > ul > li:hover a {
+    padding: 15px 30px 20px 30px
+}
+
+nav li {
+    list-style-type: none;
+
+}
+.submenu {
+    display: none;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;   
+}
+nav li:hover .submenu {
+    display: inline-block;
+    position : absolute;
+    top: 100%;
+    left: 0%;
+    padding: 0%; 
+    z-index: 1000;
+
+}
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #222538;
+    width: 270px;
+}
+
+.menu-presta:hover {
+border-top: 5px solid #b4a39f;
+background-color: beige;
+}
+.menu-for:hover {
+    border-top: 5px solid #b4a39f;
+    background-color: beige;
+}
+.menu-tarif:hover {
+    border-top: 5px solid #b4a39f;
+    background-color: beige;
+}
+.menu-info:hover{
+    border-top: 5px solid #b4a39f;
+    background-color: beige;
+}
+.menu-presta .submenu {
+  background-color: whitesmoke;  
+}
+.menu-for .submenu {
+    background-color: whitesmoke; 
+}
+.menu-tarif .submenu {
+    background-color: whitesmoke;
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-presta .submenu li:hover {
+    background-color: rgb(184, 99, 184);
+}
+.menu-for .submenu li:hover {
+    background-color: rgb(184, 99, 184);
+}
+.menu-tarif .submenu li:hover {
+    background-color: rgb(184, 99, 184);
+}
+
+
+img { 
+    width: 250px;
+    height: 150px;
+    border-radius: 3px;
+}
+img :hover {
+    position: absolute;
+    opacity: -2;
+}
