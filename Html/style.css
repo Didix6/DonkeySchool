@@ -6,6 +6,7 @@ body {
 nav {
     width: 100%;
     background-color: blueviolet;
+
 }
 nav > ul {
     margin: 0px;
@@ -96,14 +97,7 @@ background-color: beige;
 .menu-tarif .submenu li:hover {
     background-color: rgb(184, 99, 184);
 }
-
-
-img { 
-    width: 250px;
-    height: 150px;
-    border-radius: 3px;
-}
-img :hover {
-    position: absolute;
-    opacity: -2;
+h2 {
+  display: flex;  
+  justify-content: center;
 }
