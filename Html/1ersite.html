@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Ma 1ere expérience Web grâce à DonkeySchool.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="flexbox.css">
+  <title>Bienvenue</title>
+</head>
+
+<body>
+  <header>
+    <nav> 
+      <ul>
+        <li class="menu-presta"><a href="prestations.html">Prestations</a>
+          <ul class="submenu">
+            <li><a href="#">Maquillage artistique</a></li>
+            <li><a href="#"> Maquillage mariée</a></li>
+            <li><a href="#"> Maquillage soirée</a></li>
+          </ul>
+        </li>
+         
+        <li class="menu-for"><a href="formations.html">Formations</a>
+         <ul class="submenu">
+          <li><a href="#">Débutants</a></li>
+          <li><a href="#">Perfectionnement</a></li>
+          <li><a href="#">Make up art design</a></li>
+         </ul>
+        </li>
+        <li class="menu-tarif"><a href="tarif.html">Tarifs</a>
+          <ul class="submenu"> 
+            <li><a href="#">Tarif etudiant</a></li>
+            <li><a href="#">Tarif particulier</a></li>
+            <li><a href="#">Tarif entreprise</a></li>
+          </ul>
+        </li>
+        <li class="menu-info"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="corps">
+    <h1> Bea make up artist</h1>
+  </section>
+  <section class="contenu">
+    <h2>Mes realisations</h2>
+    <div class="art"> Maquillage artistique</div>
+    <div class="mar"> Maquillage mariée</div>
+    <div class="event"> Maquillage évenement</div>
+  </section>
+  <section class="contact">
+    <div>
+      <h3> Contact</h3>
+    <form method="post" action="traitement.php">
+      <label for="prenom">Prenom</label>
+      <input type="text" id="prenom" name="prenom"><br>
+      <label for="prez"> Une descritiopn</label>
+      <textarea id="prez" name="description"></textarea><br>
+      <input type="submit" value="Envoyer">
+    </form>
+    </div>
+  </section>
+  <footer class="fin">
+    <p>A propos de nous</p>
+    <p> FAQ </p>
+    <p> Liens</p>
+  </footer>
+</body>
+</html>

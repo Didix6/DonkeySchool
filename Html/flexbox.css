@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-color: grey;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: beige;
+    }
+}
+
+.corps {
+   display: flex;
+   flex-grow: initial;
+   background-color: pink;
+   color: beige;
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+
+}
+.contenu  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+  
+}
+.art {
+    background-color: rgb(170, 170, 150);
+    margin: 3rem;
+    padding: 3rem;
+  
+   
+}
+.mar {
+   
+    background-color: rgb(170, 170, 150);
+    margin: 3rem;
+    padding: 3rem;
+  
+}
+.event {
+   
+    background-color: rgb(170, 170, 150);
+    margin: 3rem;
+    padding: 3rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+
+ 
+}
+.fin {
+    display: flex;
+    background-color: rgb(113, 109, 109);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
